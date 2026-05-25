@@ -1,6 +1,8 @@
 import "./App.css";
+import CharacterCounter from "./components/CharacterCounter";
 import Counter from "./components/counter";
 import ModeButton from "./components/ModeButton";
+import SearchFilter from "./components/SearchFilter";
 import ShowHidepassword from "./components/ShowHidepassword";
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
       <Counter />
       <ModeButton />
       <ShowHidepassword />
+      <CharacterCounter />
+      <SearchFilter />
     </>
   );
 }
